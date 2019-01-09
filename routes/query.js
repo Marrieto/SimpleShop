@@ -21,8 +21,9 @@ router.get('/products', function(req, res, next) {
     console.log(err);
     console.log(results);
     let text = 'These are all the products availabe:'
+    let title = 'SELECT * from Product'
     // console.log(fields);
-    res.render('queryProducts', {text: text, row: results})
+    res.render('queryProducts', {text: text, title: title, row: results})
   })
   
 });
