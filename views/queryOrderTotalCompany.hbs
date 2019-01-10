@@ -1,0 +1,16 @@
+
+
+<Table>
+  <tr>
+    <th>Company name</th>
+    <th>Total sum</th>
+  </tr>
+{{#each row}}
+<tr>
+  <td>{{this.Name}}</td>
+  <td>{{this.TotalPerCompany}}</td>
+</tr>
+{{/each}}
+</Table>
+
+<a href="/query">Go back to queries</a>

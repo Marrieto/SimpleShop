@@ -1,0 +1,20 @@
+
+
+<Table>
+  <tr>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Product name</th>
+    <th>Total</th>
+  </tr>
+{{#each row}}
+<tr>
+  <td>{{this.Qty}}</td>
+  <td>{{this.Price}}</td>
+  <td>{{this.Name}}</td>
+  <td>{{this.Total}}</td>
+</tr>
+{{/each}}
+</Table>
+
+<a href="/query">Go back to queries</a>
