@@ -1,0 +1,16 @@
+<Table>
+  <tr>
+    <th>SaleID</th>
+    <th>Name of Company</th>
+    <th>Date</th>
+  </tr>
+{{#each row}}
+<tr>
+  <td>{{this.SaleID}}</td>
+  <td>{{this.Name}}</td>
+  <td>{{this.SaleDate}}</td>
+</tr>
+{{/each}}
+</Table>
+
+<a href="/query">Go back to queries</a>
